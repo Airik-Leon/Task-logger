@@ -1,0 +1,40 @@
+package data;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import entities.User;
+@Repository
+@Transactional
+public class Use	rDAOImpl implements UserDAO {
+	@Autowired
+	UserDAO dao; 
+	@Override
+	public List<User> index() {
+		return null;
+	}
+
+	@Override
+	public User show(int id) {
+		return null;
+	}
+
+	@Override
+	public User create(String json) {
+		return null;
+	}
+
+	@Override
+	public User update(String json) {
+		return null;
+	}
+
+	@Override
+	public User destroy(int id) {
+		return null;
+	}
+
+}
