@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCProject/WebContent/WEB-INF/skeleton-servlet.xml&apos; to &apos;Todo-servlet.xml&apos;" description="Rename resource &apos;skeleton-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/skeleton-servlet.xml" name="Todo-servlet.xml" stamp="1515106272464" updateReferences="true"/>
+</session>

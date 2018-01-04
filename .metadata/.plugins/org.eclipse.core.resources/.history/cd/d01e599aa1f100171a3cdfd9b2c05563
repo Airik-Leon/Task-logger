@@ -1,0 +1,14 @@
+package entities;
+
+import javax.persistence.Entity;
+
+@Entity
+public class User {
+	@Id
+	@GeneratedValue(GenerationType.IDENTITY)
+	private int id; 
+	private String email; 
+	private String password; 
+	@ManyToOne(mappedBy="user")
+	private List<Todo> tasks; 
+}
